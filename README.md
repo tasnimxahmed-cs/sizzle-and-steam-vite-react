@@ -43,17 +43,17 @@ Designed with clean architecture, accessibility, and smooth user experience in m
 
 ## 📁 Project Structure
 
-- src/
-- ├── assets/ # Images, fonts, and other static assets
-- ├── components/ # Reusable React components (Navbar, Footer, CartModal, MenuCard, etc.)
-- ├── context/ # React Context for Cart state management
-- ├── pages/ # Page components (Home, Menu, Gallery, About, Contact)
-- ├── App.jsx # React Router setup and main app component
-- ├── main.jsx # Vite entry point, imports global styles
-- public/
-- ├── favicon.ico # Favicon asset
-- ├── images/ # Public images
-- tailwind.css # TailwindCSS base styles and custom theme
+src/
+├── assets/ # Images, fonts, and other static assets
+├── components/ # Reusable React components (Navbar, Footer, CartModal, MenuCard, etc.)
+├── context/ # React Context for Cart state management
+├── pages/ # Page components (Home, Menu, Gallery, About, Contact)
+├── App.jsx # React Router setup and main app component
+├── main.jsx # Vite entry point, imports global styles
+public/
+├── favicon.ico # Favicon asset
+├── images/ # Public images
+tailwind.css # TailwindCSS base styles and custom theme
 
 ---
 
@@ -80,26 +80,26 @@ npm run dev
 
 ## 🧩 Key Implementation Details
 
-- **Navbar & Navigation**
+**Navbar & Navigation**
 - Responsive with hamburger menu for mobile.
 - Cart icon with item count badge and modal.
 - Accessible with keyboard and aria labels.
 
-- **Menu Page & Cart**
+**Menu Page & Cart**
 - Responsive cards with add-to-cart buttons.
 - Cart modal with slide-in animation and blur backdrop.
 - Quantity management and remove item functionality.
 - Toast notifications for cart actions.
 
-- **Gallery**
+**Gallery**
 - Responsive image carousel with SwiperJS.
 - Pagination and navigation arrows styled for brand colors.
-- 
-- **About & Contact Pages**
+
+**About & Contact Pages**
 - Vertically centered content between header and footer.
 - Contact page form matched in width to embedded Google Map.
 
-- **Styling**
+**Styling**
 - TailwindCSS v4 with @theme for consistent brand colors and fonts.
 - Smooth transitions and animations for UI elements.
 
@@ -117,12 +117,12 @@ npm run dev
 
 ## 🙌 Credits
 
-- Built by Tasnim Ahmed. Inspired by vibrant street food culture and modern web design principles.
+Built by Tasnim Ahmed. Inspired by vibrant street food culture and modern web design principles.
 
 ---
 
 ## 📄 License
-- This project is licensed under the MIT License.
+This project is licensed under the MIT License.
 
 ---
 
