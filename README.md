@@ -43,17 +43,17 @@ Designed with clean architecture, accessibility, and smooth user experience in m
 
 ## 📁 Project Structure
 
-src/
-├── assets/ # Images, fonts, and other static assets
-├── components/ # Reusable React components (Navbar, Footer, CartModal, MenuCard, etc.)
-├── context/ # React Context for Cart state management
-├── pages/ # Page components (Home, Menu, Gallery, About, Contact)
-├── App.jsx # React Router setup and main app component
-├── main.jsx # Vite entry point, imports global styles
-public/
-├── favicon.ico # Favicon asset
-├── images/ # Public images
-tailwind.css # TailwindCSS base styles and custom theme
+src/\
+├── assets/ # Images, fonts, and other static assets\
+├── components/ # Reusable React components (Navbar, Footer, CartModal, MenuCard, etc.)\
+├── context/ # React Context for Cart state management\
+├── pages/ # Page components (Home, Menu, Gallery, About, Contact)\
+├── App.jsx # React Router setup and main app component\
+├── main.jsx # Vite entry point, imports global styles\
+public/\
+├── favicon.ico # Favicon asset\
+├── images/ # Public images\
+tailwind.css # TailwindCSS base styles and custom theme\
 
 ---
 
